@@ -1,2 +1,4 @@
+ERROR:root:
 ERROR:root:123
-ERROR:root:123
+ERROR:root:´يخَ
+ERROR:root:400
