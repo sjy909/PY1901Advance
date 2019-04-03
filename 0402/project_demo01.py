@@ -44,6 +44,10 @@ def test():
 
 
 result = test()
-print(next(result))
-print(next(result))
-
+try:
+    print(next(result))
+    print(next(result))
+except StopIteration as e:
+    print(e)
+finally:
+    print("end")
